@@ -1,0 +1,29 @@
+.center-card {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-text {
+    text-align: center;
+}
+
+.centered-element {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    top:10%;
+    left: 44%;
+    position: absolute;
+    text-align: center;
+}
+
+.contacts {
+    top:20%;
+    left: 38%;
+    position: absolute;
+    text-align: center;
+}
