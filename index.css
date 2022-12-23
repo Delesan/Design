@@ -5,6 +5,18 @@
     transform: translate(-50%, -50%);
 }
 
+.dash-card {
+    position: absolute;
+    top:32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dash-img {
+    position: absolute;
+    transform: translate(10%, 40%);
+}
+
 .center-text {
     text-align: center;
 }
@@ -13,3 +25,17 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.grid { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+    }
+  .grid > article {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  }
+  .grid > article img {
+    max-width: 100%;
+  }
