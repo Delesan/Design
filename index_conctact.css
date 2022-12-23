@@ -21,6 +21,13 @@
     text-align: center;
 }
 
+.title2 {
+    top:10%;
+    left: 34%;
+    position: absolute;
+    text-align: center;
+}
+
 .contacts {
     top:20%;
     left: 38%;
@@ -33,4 +40,22 @@
     left: 43%;
     position: absolute;
     text-align: center;
+}
+
+.team {
+    top:40%;
+    left: 52%;
+    position: absolute;
+    text-align: center;
+}
+
+.descr {
+    top:50%;
+    left: 10%;
+    position: absolute;
+    word-wrap: break-word;
+}
+
+.text {
+    word-wrap: break-word;
 }
